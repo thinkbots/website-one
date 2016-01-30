@@ -1,0 +1,42 @@
+/* LINKS */
+a {
+  color: #028090;
+}
+a:hover {
+  color: #05668D;
+}
+
+/*Header Nav*/
+#header-2 .brand-img {
+  margin: 13px auto 17px;
+}
+
+#header-2 .main-nav .nav {
+  margin-top: 30px;
+}
+
+#header-2 .main-nav .navbar-nav > li.active a {
+  color: #05668D;
+}
+
+#header-2 .main-nav .navbar-nav > li a:hover {
+  color: #05668D;
+}
+
+
+#header-3 .brand-img {
+  position: absolute;
+  left: 0;
+  max-width: 200px;
+}
+
+#header-3 #nav-toggle span,
+#header-3 #nav-toggle span:before,
+#header-3 #nav-toggle span:after {
+  /*background: white;*/
+}
+
+/* Footer */
+.copyright-bar {
+  padding-top: 25px;
+}

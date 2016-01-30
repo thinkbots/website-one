@@ -1,4 +1,4 @@
-html, body {
+/*html, body {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -22,8 +22,8 @@ a {
 
 #logo {
   background: url('../images/logo_md.png') no-repeat transparent;
-  width: 512px; /*640px;*/
-  height: 262px; /*327px;*/
+  width: 512px; /*640px;*
+  height: 262px; /*327px;*
   display: inline-block;
   margin-top: 10%;
 }
@@ -87,4 +87,4 @@ and (max-width : 768px) {
     width: 640px;
     height: 327px;
   }
-}
+}*/
