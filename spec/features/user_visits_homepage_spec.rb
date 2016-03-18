@@ -1,9 +1,9 @@
-feature "User visits homepage" do 
+feature 'User visits homepage' do
   background do
-    visit "/"
+    visit '/'
   end
 
-  scenario "successfully" do
-    expect(page).to have_css 'h1', text: 'welcome to thinkbots'
+  scenario 'and the page has the correct title' do
+    expect(page).to have_title 'Thinkbots'
   end
 end
