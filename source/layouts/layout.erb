@@ -15,11 +15,13 @@
     <title><%= current_page.data.title || "Thinkbots" %></title>
 
     <!-- Core CSS -->
-    <%= stylesheet_link_tag "normalize", "all" %>
+    <%= stylesheet_link_tag :all %>
   </head>
 
   <body class="<%= page_classes %>">
     <%#= partial 'shared/googletags' %>
+
     <%= yield %>
+    <%= javascript_include_tag :all %>
   </body>
 </html>

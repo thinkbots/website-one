@@ -7,6 +7,12 @@ configure :development do
   activate :livereload
 end
 
+after_configuration do
+  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+  @bower_assets_path = File.join root.to_s, @bower_config['directory']
+  sprockets.append_path @bower_assets_path
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
