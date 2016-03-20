@@ -1,3 +1,8 @@
 //= require jquery/dist/jquery.min
 
 //= require_tree .
+
+$(window).load(function(){
+  $('.main-slider').addClass('animate-in');
+  $('.preloader').remove();
+});
