@@ -529,7 +529,7 @@ body {
 
 /** TYPOGRAPHY **/
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+/*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Varela Round', sans-serif;
   line-height: 1.1;
 }
@@ -580,11 +580,11 @@ small, .small {
 }
 em {
   color: #ff6600;
-}
+}*/
 
 /* LINKS */
 
-a {
+/*a {
   color: #FFE346;
 }
 a:hover {
@@ -594,11 +594,11 @@ a:hover {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
+}*/
 
 /* LISTS */
 
-ol {
+/*ol {
   position: relative;
   padding-left: 22px;
 }
@@ -620,11 +620,11 @@ ul.circle li:before {
   padding-top: 2px;
   margin-left: -20px;
   position: absolute;
-}
+}*/
 
 /* TITLES */
 
-.underlined-title {
+/*.underlined-title {
   text-align: center;
   padding-bottom: 30px;
 }
@@ -642,11 +642,11 @@ ul.circle li:before {
   width: 10%;
   border-width: 2px;
   border-color: #16a085;
-}
+}*/
 
 /* IMAGES */
 
-img {}
+/*img {}*/
 
 /*===================================================================================*/
 
@@ -654,7 +654,7 @@ img {}
 /*	BUTTONS
 /*===================================================================================*/
 
-.btn {
+/*.btn {
   color: #FFF;
   padding: 10px 20px;
   margin: 15px 0;
@@ -684,89 +684,89 @@ img {}
 }
 h1 .btn, h2 .btn, h3 .btn, h4 .btn, p .btn {
   margin-left: 15px;
-}
+}*/
 
 /* Button DISABLED */
 
-.disabled a {
+/*.disabled a {
   cursor: not-allowed;
-}
+}*/
 
 /* Button DEFAULT */
 
-.btn.btn-default {
+/*.btn.btn-default {
   background: #ecf0f1;
   box-shadow: 0 2px #bdc3c7;
   color: #999;
 }
 .btn.btn-default:hover {
   background: #bdc3c7;
-}
+}*/
 
 /* Button PRIMARY */
 
-.btn.btn-primary {
+/*.btn.btn-primary {
   background: #1abc9c;
   box-shadow: 0 2px #F9B233;
 }
 .btn.btn-primary:hover {
   background: #16a085;
-}
+}*/
 
 /* Button WARNING */
 
-.btn.btn-warning {
+/*.btn.btn-warning {
   background: #f1c40f;
   box-shadow: 0 2px #f39c12;
 }
 .btn.btn-warning:hover {
   background: #f39c12;
-}
+}*/
 
 /* Button DANGER */
 
-.btn.btn-danger {
+/*.btn.btn-danger {
   background: #e74c3c;
   box-shadow: 0 2px #c0392b;
 }
 .btn.btn-danger:hover {
   background: #c0392b;
-}
+}*/
 
 /* Button SUCCESS */
 
-.btn.btn-success {
+/*.btn.btn-success {
   background: #2ecc71;
   box-shadow: 0 2px #27ae60;
 }
 .btn.btn-success:hover {
   background: #27ae60;
-}
+}*/
 
 /* Button DARK */
 
-.btn.btn-dark {
+/*.btn.btn-dark {
   background: #34495e;
   box-shadow: 0 2px #2c3e50;
   color: #ffffff;
 }
 .btn.btn-dark:hover {
   background: #2c3e50;
-}
+}*/
 
 /* Button INFO */
 
-.btn.btn-info {
+/*.btn.btn-info {
   background: #3498db;
   box-shadow: 0 2px #2980b9;
 }
 .btn.btn-info:hover {
   background: #2980b9;
-}
+}*/
 
 /* Outline Buttons */
 
-.btn-outline {
+/*.btn-outline {
   color: #FFF;
   padding: 12px 20px;
   margin: 15px 0;
@@ -821,7 +821,7 @@ button:hover {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
+}*/
 
 /*===================================================================================*/
 
@@ -829,7 +829,7 @@ button:hover {
 /*	SOCIAL ICONS
 /*===================================================================================*/
 
-.social {
+/*.social {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -898,11 +898,11 @@ button:hover {
 }
 .social a .fa-dribbble:after {
   background: #EA4C89;
-}
+}*/
 
 /* FORM CONTROL */
 
-fieldset {
+/*fieldset {
   border: 2px solid #ecf0f1;
   border-radius: 6px;
   padding: 30px 50px;
@@ -1061,11 +1061,11 @@ fieldset legend {
   color: #e74c3c;
   border-color: #e74c3c;
   background-color: #ffffff;
-}
+}*/
 
 /* FORM - INPUT ICON */
 
-.form-control + .input-icon {
+/*.form-control + .input-icon {
   position: absolute;
   top: 2px;
   right: 2px;
@@ -1089,18 +1089,18 @@ fieldset legend {
   font-size: 18px;
   line-height: 30px;
   padding: 0 10px 0 0;
-}
+}*/
 
 /* FORM - INPUT GROUP */
-
+/*
 .input-group .input-group-btn .btn {
   margin: 0;
   box-shadow: none;
-}
+}*/
 
 /*	ACCORDION / TOGGLE */
 
-.panel-group {
+/*.panel-group {
   margin-bottom: 0;
 }
 .panel-group + .panel-group {
@@ -1189,11 +1189,11 @@ fieldset legend {
 }
 .panel-title > a.collapsed span:after {
   content: "\f078";
-}
+}*/
 
 /* TABS */
 
-.nav-tabs {
+/*.nav-tabs {
   margin: 0 auto;
 }
 .nav-tabs > li {
@@ -1229,11 +1229,11 @@ fieldset legend {
 .tab-pane {
   padding: 50px 0;
   border-bottom: 1px solid #ecf0f1;
-}
+}*/
 
 /* PAGINATION */
 
-.pagination li a {
+/*.pagination li a {
   font-size: 14px;
   color: #16A085;
   background: none;
@@ -1261,11 +1261,11 @@ fieldset legend {
 .pagination-sm li a {
   padding: 4px 10px;
   font-size: 12px;
-}
+}*/
 
 /* PAGER */
 
-.pager li > a, .pager li > span {
+/*.pager li > a, .pager li > span {
   border: 1px solid #16A085;
   border-radius: 0;
   color: #16A085;
@@ -1284,11 +1284,11 @@ fieldset legend {
 .pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
   color: #999;
   border: 1px solid #ddd;
-}
+}*/
 
 /* CONTENT BLOCK HOLDERS */
 
-.content-block {
+/*.content-block {
   width: 100%;
   padding: 60px 0 60px 0;
   z-index: 100;
@@ -1300,7 +1300,7 @@ fieldset legend {
   z-index: 100;
   position: relative;
   background-color: #ffffff;
-}
+}*/
 
 /*	PATTERN LIBRARY MEDIA QUERIES
 /*----------------------------------------------------*/

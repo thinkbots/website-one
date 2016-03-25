@@ -1,0 +1,60 @@
+.footer-1-1 {
+  padding-bottom: 45px;
+  padding-top: 60px;
+
+  h3,
+  h4,
+  .lead,
+  li {
+    color: white;
+  }
+
+  .brand-img {
+    margin-bottom: 30px;
+    width: 200px;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0 0 26px;
+    padding: 0;
+  }
+
+  li:first-child {
+    border-top: 0;
+    padding-top: 1px;
+  }
+
+  .social-icons {
+    li {
+      border-top: 0;
+      padding-top: 1px;
+
+      a {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+.copyright-bar {
+  background-color: #233447; //or use this #637074
+  bottom: 0;
+  height: 70px;
+  padding-top: 25px;
+  position: relative;
+
+  p {
+    color: white;
+    font-weight: 700;
+    margin: 0;
+  }
+}
+
+.lead {
+  font-size: 18px;
+}
