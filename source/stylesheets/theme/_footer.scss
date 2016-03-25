@@ -5,7 +5,8 @@
   h3,
   h4,
   .lead,
-  li {
+  li,
+  p {
     color: white;
   }
 
@@ -16,6 +17,16 @@
 
   h4 {
     margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 16px;
+
+  }
+
+  .lead {
+    font-size: 18px;
+    margin-bottom: 36px;
   }
 
   ul {
@@ -53,8 +64,4 @@
     font-weight: 700;
     margin: 0;
   }
-}
-
-.lead {
-  font-size: 18px;
 }
