@@ -3,6 +3,8 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :partials_dir, 'partials'
 
+activate :directory_indexes
+
 configure :development do
   activate :livereload
 end

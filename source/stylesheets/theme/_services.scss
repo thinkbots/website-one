@@ -1,4 +1,4 @@
-/* Services */
+// /* Services */
 
 .services-box {
   h3 {
@@ -80,11 +80,26 @@
 }
 
 .service-icon-const i {
-  color: #193441;
+  color: #369BAC;
+  // color: #F1C40F;
   font-size: 64px;
   line-height: 1;
 }
 
 .home-const-services {
   margin-top: 40px;
+}
+
+.title {
+  color: #333333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+.title-alt {
+  color: #767D8E;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0px auto 72px auto;
 }
