@@ -15,6 +15,7 @@
     <title><%= current_page.data.title || "Thinkbots" %></title>
 
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//s3.amazonaws.com/funnelnow/uni-form/uni-form.css">
     <!-- Core CSS -->
     <%= stylesheet_link_tag :all %>
   </head>
@@ -25,5 +26,6 @@
     <%= yield %>
     <%= partial 'partials/footer' %>
     <%= javascript_include_tag :all %>
+    <script type="text/javascript" src="//funnelnow.com/widget/323"></script>
   </body>
 </html>
