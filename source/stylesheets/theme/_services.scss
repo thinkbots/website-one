@@ -12,6 +12,15 @@
     margin: 0 auto;
     width: 90%;
   }
+
+  a {
+    color: #42A0B1;
+
+    &:hover,
+    &:focus {
+      color: #4fcccd
+    }
+  }
 }
 
 .service-icon {
