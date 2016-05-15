@@ -11,17 +11,18 @@
     <meta name="keywords" content=""/>
     <meta name="author" content=""/>
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Thinkbots" %></title>
+    <link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
 
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Web and mobile apps development and design - Thinkbots" %></title>
+
     <link rel="stylesheet" href="//s3.amazonaws.com/funnelnow/uni-form/uni-form.css">
     <!-- Core CSS -->
     <%= stylesheet_link_tag :all %>
   </head>
 
   <body class="<%= page_classes %>">
-    <%#= partial 'shared/googletags' %>
+    <%= partial 'shared/googletags' %>
     <%= partial 'partials/header' %>
     <%= yield %>
     <%= partial 'partials/footer' %>
