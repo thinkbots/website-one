@@ -6,4 +6,6 @@
 $(window).load(function(){
   $('.main-slider').addClass('animate-in');
   $('.preloader').remove();
+  $('.input-select').addClass('form-control');
+  $('.btn-default').addClass('btn-common');
 });
