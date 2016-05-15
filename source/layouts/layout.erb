@@ -1,37 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" content=""/>
+
+    <link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
+
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Thinkbots (Pty) Ltd." %></title>
+    <title><%= current_page.data.title || "Web and mobile apps development and design - Thinkbots" %></title>
 
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-    <%= javascript_include_tag  "all" %>
+    <link rel="stylesheet" href="//s3.amazonaws.com/funnelnow/uni-form/uni-form.css">
+    <!-- Core CSS -->
+    <%= stylesheet_link_tag :all %>
   </head>
 
   <body class="<%= page_classes %>">
     <%= partial 'shared/googletags' %>
+    <%= partial 'partials/header' %>
     <%= yield %>
-    <footer id="footer">
-      <div class="container">
-        <div class="left">
-          <small>&copy; Thinkbots (Pty) Ltd 2015. All rights reserved. The design of thinkbots and the robot are trademarks of Thinkbots (Pty) ltd.</small>
-        </div>
-        <div class="right">
-          <a href="mailto:hi@thinkbots.io"><i class="fa fa-envelope-o" style="font-size: 22px; color: #686868"></i></a>
-          <a href="https://twitter.com/ThinkbotsIO" target="_blank">
-            <i class="fa fa-twitter" style="font-size: 22px; color: #686868"></i>
-          </a>
-          <a href="https://github.com/thinkbots" target="_blank">
-            <i class="fa fa-github" style="font-size: 22px; color: #686868"></i>
-          </a>
-        </div>
-      </div>
-    </footer>
+    <%= partial 'partials/footer' %>
+    <%= javascript_include_tag :all %>
+    <script type="text/javascript" src="//funnelnow.com/widget/323"></script>
   </body>
 </html>

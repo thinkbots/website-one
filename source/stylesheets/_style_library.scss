@@ -1,0 +1,544 @@
+/*	PATTERN LIBRARY STYLES
+/*----------------------------------------------------*/
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #333333;
+  background: #ffffff;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* BACKGROUND COLORS */
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+.bg-black {
+  background-color: #111111 !important;
+}
+.bg-white {
+  background-color: #FFFFFF !important;
+}
+.bg-offwhite {
+  background-color: #F5F5F5 !important;
+}
+.bg-clouds {
+  background-color: #ECF0F1 !important;
+}
+.bg-silver {
+  background-color: #BDC3C7 !important;
+}
+.bg-concrete {
+  background-color: #95A5A6 !important;
+}
+.bg-asbestos {
+  background-color: #7F8C8d !important;
+}
+.bg-tan {
+  background-color: #D1DBBD !important;
+}
+.bg-pewter {
+  background-color: #91AA9D !important;
+}
+.bg-moonlight {
+  background-color: #3E606F !important;
+}
+.bg-deepocean {
+  background-color: #193441 !important;
+}
+.bg-turquoise {
+  background-color: #1ABC9C !important;
+}
+.bg-aqua {
+  background-color: #16A085 !important;
+}
+.bg-sunflower {
+  background-color: #F1C40F !important;
+}
+.bg-orange {
+  background-color: #F39C12 !important;
+}
+.bg-sienna {
+  background-color: #BF4E19 !important;
+}
+.bg-milanored {
+  background-color: #AC1C00 !important;
+}
+.bg-river {
+  background-color: #3498DB !important;
+}
+.bg-marina {
+  background-color: #2980B9 !important;
+}
+.bg-deco {
+  background-color: #C9D787 !important;
+}
+.bg-crete {
+  background-color: #7D8A2E !important;
+}
+.bg-guardsman {
+  background-color: #D90000 !important;
+}
+.bg-pomegranate {
+  background-color: #C0392B !important;
+}
+.bg-finn {
+  background-color: #723147 !important;
+}
+.bg-tamarind {
+  background-color: #31152B !important;
+}
+.bg-transparent-hover:hover {
+  background-color: transparent !important;
+}
+.bg-black-hover:hover {
+  background-color: #111111 !important;
+}
+.bg-white-hover:hover {
+  background-color: #FFFFFF !important;
+}
+.bg-offwhite-hover:hover {
+  background-color: #F5F5F5 !important;
+}
+.bg-clouds-hover:hover {
+  background-color: #ECF0F1 !important;
+}
+.bg-silver-hover:hover {
+  background-color: #BDC3C7 !important;
+}
+.bg-concrete-hover:hover {
+  background-color: #95A5A6 !important;
+}
+.bg-asbestos-hover:hover {
+  background-color: #7F8C8d !important;
+}
+.bg-tan-hover:hover {
+  background-color: #D1DBBD !important;
+}
+.bg-pewter-hover:hover {
+  background-color: #91AA9D !important;
+}
+.bg-moonlight-hover:hover {
+  background-color: #3E606F !important;
+}
+.bg-deepocean-hover:hover {
+  background-color: #193441 !important;
+}
+.bg-turquoise-hover:hover {
+  background-color: #1ABC9C !important;
+}
+.bg-aqua-hover:hover {
+  background-color: #16A085 !important;
+}
+.bg-sunflower-hover:hover {
+  background-color: #F1C40F !important;
+}
+.bg-orange-hover:hover {
+  background-color: #F39C12 !important;
+}
+.bg-sienna-hover:hover {
+  background-color: #BF4E19 !important;
+}
+.bg-milanored-hover:hover {
+  background-color: #AC1C00 !important;
+}
+.bg-river-hover:hover {
+  background-color: #3498DB !important;
+}
+.bg-marina-hover:hover {
+  background-color: #2980B9 !important;
+}
+.bg-deco-hover:hover {
+  background-color: #C9D787 !important;
+}
+.bg-crete-hover:hover {
+  background-color: #7D8A2E !important;
+}
+.bg-guardsman-hover:hover {
+  background-color: #D90000 !important;
+}
+.bg-pomegranate-hover:hover {
+  background-color: #C0392B !important;
+}
+.bg-finn-hover:hover {
+  background-color: #723147 !important;
+}
+.bg-tamarind-hover:hover {
+  background-color: #31152B !important;
+}
+
+/* BG COVER - MTCH */
+
+.bg-image-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+/* COLORS - MTCH added !important */
+
+.black {
+  color: #111111 !important;
+}
+.white {
+  color: #FFFFFF !important;
+}
+.offwhite {
+  color: #F5F5F5 !important;
+}
+.clouds {
+  color: #ECF0F1 !important;
+}
+.silver {
+  color: #BDC3C7 !important;
+}
+.concrete {
+  color: #95A5A6 !important;
+}
+.asbestos {
+  color: #7F8C8d !important;
+}
+.tan {
+  color: #D1DBBD !important;
+}
+.pewter {
+  color: #91AA9D !important;
+}
+.moonlight {
+  color: #3E606F !important;
+}
+.deepocean {
+  color: #193441 !important;
+}
+.turquoise {
+  color: #1ABC9C !important;
+}
+.aqua {
+  color: #16A085 !important;
+}
+.sunflower {
+  color: #F1C40F !important;
+}
+.orange {
+  color: #F39C12 !important;
+}
+.sienna {
+  color: #BF4E19 !important;
+}
+.milanored {
+  color: #AC1C00 !important;
+}
+.river {
+  color: #3498DB !important;
+}
+.marina {
+  color: #2980B9 !important;
+}
+.deco {
+  color: #C9D787 !important;
+}
+.crete {
+  color: #7D8A2E !important;
+}
+.guardsman {
+  color: #D90000 !important;
+}
+.pomegranate {
+  color: #C0392B !important;
+}
+.finn {
+  color: #723147 !important;
+}
+.tamarind {
+  color: #31152B !important;
+}
+.black-hover:hover {
+  color: #111111 !important;
+}
+.white-hover:hover {
+  color: #FFFFFF !important;
+}
+.offwhite-hover:hover {
+  color: #F5F5F5 !important;
+}
+.clouds-hover:hover {
+  color: #ECF0F1 !important;
+}
+.silver-hover:hover {
+  color: #BDC3C7 !important;
+}
+.concrete-hover:hover {
+  color: #95A5A6 !important;
+}
+.asbestos-hover:hover {
+  color: #7F8C8d !important;
+}
+.tan-hover:hover {
+  color: #D1DBBD !important;
+}
+.pewter-hover:hover {
+  color: #91AA9D !important;
+}
+.moonlight-hover:hover {
+  color: #3E606F !important;
+}
+.deepocean-hover:hover {
+  color: #193441 !important;
+}
+.turquoise-hover:hover {
+  color: #1ABC9C !important;
+}
+.aqua-hover:hover {
+  color: #16A085 !important;
+}
+.sunflower-hover:hover {
+  color: #F1C40F !important;
+}
+.orange-hover:hover {
+  color: #F39C12 !important;
+}
+.sienna-hover:hover {
+  color: #BF4E19 !important;
+}
+.milanored-hover:hover {
+  color: #AC1C00 !important;
+}
+.river-hover:hover {
+  color: #3498DB !important;
+}
+.marina-hover:hover {
+  color: #2980B9 !important;
+}
+.deco-hover:hover {
+  color: #C9D787 !important;
+}
+.crete-hover:hover {
+  color: #7D8A2E !important;
+}
+.guardsman-hover:hover {
+  color: #D90000 !important;
+}
+.pomegranate-hover:hover {
+  color: #C0392B !important;
+}
+.finn-hover:hover {
+  color: #723147 !important;
+}
+.tamarind-hover:hover {
+  color: #31152B !important;
+}
+.no-shadow {
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+}
+
+/* PADDING, MARGIN & ALIGNMENT */
+
+.pad0 {
+  padding-top: 0px !important;
+}
+.pad5 {
+  padding-top: 5px !important;
+}
+.pad10 {
+  padding-top: 10px !important;
+}
+.pad15 {
+  padding-top: 15px !important;
+}
+.pad20 {
+  padding-top: 20px !important;
+}
+.pad25 {
+  padding-top: 25px !important;
+}
+.pad30 {
+  padding-top: 30px !important;
+}
+.pad45 {
+  padding-top: 45px !important;
+}
+.pad60 {
+  padding-top: 60px !important;
+}
+.pad90 {
+  padding-top: 90px !important;
+}
+.pad-bottom0 {
+  padding-bottom: 0px !important;
+}
+.pad-bottom5 {
+  padding-bottom: 5px !important;
+}
+.pad-bottom10 {
+  padding-bottom: 10px !important;
+}
+.pad-bottom15 {
+  padding-bottom: 15px !important;
+}
+.pad-bottom20 {
+  padding-bottom: 20px !important;
+}
+.pad-bottom25 {
+  padding-bottom: 25px !important;
+}
+.pad-bottom30 {
+  padding-bottom: 30px !important;
+}
+.pad-bottom45 {
+  padding-bottom: 45px !important;
+}
+.pad-bottom60 {
+  padding-bottom: 60px !important;
+}
+.pad-bottom90 {
+  padding-bottom: 90px !important;
+}
+.margin-bottom0 {
+  margin-bottom: 0px !important;
+}
+.margin-bottom5 {
+  margin-bottom: 5px !important;
+}
+.margin-bottom10 {
+  margin-bottom: 10px !important;
+}
+.margin-bottom15 {
+  margin-bottom: 15px !important;
+}
+.margin-bottom20 {
+  margin-bottom: 20px !important;
+}
+.margin-bottom25 {
+  margin-bottom: 25px !important;
+}
+.margin-bottom30 {
+  margin-bottom: 30px !important;
+}
+.margin-bottom45 {
+  margin-bottom: 45px !important;
+}
+.margin-bottom60 {
+  margin-bottom: 60px !important;
+}
+.margin-bottom90 {
+  margin-bottom: 90px !important;
+}
+.margin-top0 {
+  margin-top: 0px !important;
+}
+.margin-top5 {
+  margin-top: 5px !important;
+}
+.margin-top10 {
+  margin-top: 10px !important;
+}
+.margin-top15 {
+  margin-top: 15px !important;
+}
+.margin-top20 {
+  margin-top: 20px !important;
+}
+.margin-top25 {
+  margin-top: 25px !important;
+}
+.margin-top30 {
+  margin-top: 30px !important;
+}
+.margin-top45 {
+  margin-top: 45px !important;
+}
+.margin-top60 {
+  margin-top: 60px !important;
+}
+.margin-top90 {
+  margin-top: 90px !important;
+}
+.min-height-100px {
+  min-height: 100px !important;
+}
+.min-height-200px {
+  min-height: 200px !important;
+}
+.min-height-300px {
+  min-height: 300px !important;
+}
+.min-height-400px {
+  min-height: 400px !important;
+}
+.min-height-500px {
+  min-height: 500px !important;
+}
+.min-height-600px {
+  min-height: 600px !important;
+}
+.min-height-700px {
+  min-height: 700px !important;
+}
+.min-height-800px {
+  min-height: 800px !important;
+}
+@media only screen and (max-width: 767px) {
+  .min-height-xs-100px {
+    min-height: 100px !important;
+  }
+  .min-height-xs-200px {
+    min-height: 200px !important;
+  }
+  .min-height-xs-300px {
+    min-height: 300px !important;
+  }
+  .min-height-xs-400px {
+    min-height: 400px !important;
+  }
+  .min-height-xs-500px {
+    min-height: 500px !important;
+  }
+  .min-height-xs-600px {
+    min-height: 600px !important;
+  }
+  .min-height-xs-700px {
+    min-height: 700px !important;
+  }
+  .min-height-xs-800px {
+    min-height: 800px !important;
+  }
+}
+.marg-bottom5 {
+  margin-bottom: 5px !important;
+}
+.marg-left5 {
+  margin-left: 5px !important;
+}
+.marg-right5 {
+  margin-right: 5px !important;
+}
+.but_marg {
+  margin-left: 3px !important;
+}
+.v-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+/*	PATTERN LIBRARY MEDIA QUERIES
+/*----------------------------------------------------*/
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}

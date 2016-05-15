@@ -1,0 +1,67 @@
+#home-slider {
+  background: url('../images/slider/slider-bg.png') 0 100% repeat-x;
+  position: relative;
+
+  .main-slider {
+    height: 450px;
+    position: relative;
+  }
+
+  .slide-text{
+    left: 0;
+    position: absolute;
+    top: 50px;
+    width: 450px;
+  }
+
+  .slider-team {
+    bottom: -30px;
+    position: absolute;
+    right: 0;
+    width: 650px;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 25px;
+    margin-top: 60px;
+  }
+
+  .btn-common {
+    margin-top: 20px;
+  }
+
+  .preloader {
+    background: #fafafa;
+    bottom: -30px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+  }
+
+  .preloader > i {
+    color: #42a0b1;
+    font-size: 48px;
+    height: 48px;
+    left: 50%;
+    line-height: 48px;
+    margin-left: -24px;
+    margin-top: -24px;
+    position: absolute;
+    top: 50%;
+  }
+}
+
+// Animation
+.animate-in .slide-text {
+  -webkit-animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+
+.animate-in .slider-team {
+  -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
+  animation: bounceInDown 1000ms ease-in-out 200ms both;
+}

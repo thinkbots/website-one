@@ -1,0 +1,20 @@
+{
+  "name": "thinkbots-vendor-assets",
+  "homepage": "https://github.com/thinkbots/website",
+  "description": "Vendor assets for Thinkbots website",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
