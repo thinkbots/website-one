@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 gem 'middleman-sprockets', '~> 4.0.0.rc'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 
 # Add less. Font-awesome folder contains less files, app won't load without
 # The following gems. Keep here until we get a better solution

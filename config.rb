@@ -33,3 +33,12 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :deploy do |deploy|
+  deploy.deploy_method   = :rsync
+  deploy.host            = 'deploy@thinkbots.io'
+  deploy.path            = '/var/www/html/thinkbots'
+  # deploy.user            = 'deploy'
+  deploy.build_before    = true
+  deploy.clean           = true
+end
