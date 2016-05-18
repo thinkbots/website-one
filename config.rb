@@ -4,6 +4,7 @@ set :images_dir, 'images'
 set :partials_dir, 'partials'
 
 activate :directory_indexes
+activate :meta_tags
 
 configure :development do
   activate :livereload
@@ -32,6 +33,11 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  set :url_root, 'https://thinkbots.io'
+  activate :search_engine_sitemap, exclude_attr: 'hidden',
+                                   default_priority: 0.5,
+                                   default_change_frequency: 'monthly'
 end
 
 activate :deploy do |deploy|
@@ -40,5 +46,5 @@ activate :deploy do |deploy|
   deploy.path            = '/var/www/html/thinkbots'
   # deploy.user            = 'deploy'
   deploy.build_before    = true
-  deploy.clean           = true
+  # deploy.clean           = true
 end
