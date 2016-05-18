@@ -7,6 +7,8 @@ gem 'middleman-livereload'
 gem 'middleman-sprockets', '~> 4.0.0.rc'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 
+gem 'middleman-meta-tags', git: 'https://github.com/rossta/middleman-meta-tags'
+
 # Add less. Font-awesome folder contains less files, app won't load without
 # The following gems. Keep here until we get a better solution
 gem 'therubyracer', '~> 0.12.2'
