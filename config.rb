@@ -6,6 +6,12 @@ set :partials_dir, 'partials'
 activate :directory_indexes
 activate :meta_tags
 
+set :url_root, 'https://thinkbots.io'
+
+activate :search_engine_sitemap, exclude_attr: 'hidden',
+                                 default_priority: 0.5,
+                                 default_change_frequency: 'monthly'
+
 configure :development do
   activate :livereload
 end
@@ -30,14 +36,6 @@ configure :build do
 
   # Use relative URLs
   # activate :relative_assets
-
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
-
-  set :url_root, 'https://thinkbots.io'
-  activate :search_engine_sitemap, exclude_attr: 'hidden',
-                                   default_priority: 0.5,
-                                   default_change_frequency: 'monthly'
 end
 
 activate :deploy do |deploy|
@@ -46,5 +44,5 @@ activate :deploy do |deploy|
   deploy.path            = '/var/www/html/thinkbots'
   # deploy.user            = 'deploy'
   deploy.build_before    = true
-  # deploy.clean           = true
+  deploy.clean           = true
 end
