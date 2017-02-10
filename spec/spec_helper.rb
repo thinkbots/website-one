@@ -4,7 +4,10 @@ require 'capybara/rspec'
 
 require 'middleman-core'
 require 'middleman-core/rack'
+require 'middleman-deploy'
 require 'middleman-livereload'
+require 'middleman-meta-tags'
+require 'middleman-search_engine_sitemap'
 require 'middleman-sprockets'
 
 require 'pry-byebug'
