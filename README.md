@@ -3,7 +3,7 @@ Thinkbots Website
 
 [ ![Codeship Status for thinkbots/website](https://app.codeship.com/projects/4f4e9710-a2a3-0134-84f5-4200a054a000/status?branch=master)](https://app.codeship.com/projects/190014)
 
-[Thinkbots](https://www.thinkbots.io) Inc. company's website ()
+[Thinkbots](https://www.thinkbots.io) Pty Ltd. website
 
 Running the app locally
 ----------------------
