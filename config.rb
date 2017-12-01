@@ -5,6 +5,7 @@ set :partials_dir, 'partials'
 
 activate :directory_indexes
 activate :meta_tags
+activate :sprockets
 
 set :url_root, 'https://thinkbots.io'
 
