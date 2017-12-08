@@ -25,7 +25,7 @@ end
 
 # Build-specific configuration
 configure :build do
-  ignore 'vendors/font-awesome/less/*'
+  ignore 'vendors/*'
   # For example, change the Compass output style for deployment
   activate :minify_css
 
